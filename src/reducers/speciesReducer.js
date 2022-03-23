@@ -4,6 +4,7 @@ export const speciesReducer = (state = [], action) => {
             return action.payload
         case 'ADD_SPECIES':
             return [...state, action.payload]
+        
         default:
             return state
     }

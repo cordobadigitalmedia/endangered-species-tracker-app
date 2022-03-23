@@ -70,7 +70,7 @@ class SpeciesForm extends Component {
                 <input type='text' value={this.state.image_url} onChange={this.handleChange} name='image_url'/>
                 <br/>
 
-                <input type='submit' value='Create Species' />
+                <input type='submit' value='Add Endangered Species' />
 
 
             </form>
