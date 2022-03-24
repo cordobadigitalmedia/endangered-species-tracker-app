@@ -9,7 +9,7 @@ import Router from './components/Router'
 const App = () => {
   return (
     <div>
-      <button onclick={<SpeciesList/>}>Endangered Species List</button>
+      {/* <button onclick={<SpeciesList/>}>Endangered Species List</button> */}
       <SpeciesContainer/>
       <Router />
     </div>
