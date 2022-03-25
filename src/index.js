@@ -8,6 +8,10 @@ import thunk from 'redux-thunk'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { rootReducer } from './reducers/rootReducer'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import $ from 'jquery';
+import Popper from 'popper.js';
 
   
 const store = createStore(
