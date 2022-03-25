@@ -3,13 +3,15 @@
 
 import React from 'react' 
 import SpeciesContainer from './components/SpeciesContainer'
-import SpeciesList from './components/SpeciesList'
+// import SpeciesList from './components/SpeciesList'
 import Router from './components/Router'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <div>
-      {/* <button onclick={<SpeciesList/>}>Endangered Species List</button> */}
+       < Navbar />
+       
       <SpeciesContainer/>
       <Router />
     </div>

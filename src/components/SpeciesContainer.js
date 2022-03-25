@@ -14,7 +14,7 @@ class SpeciesContainer extends Component {
         return (
             <div>
                {/* <SpeciesList  /> */}
-                <SpeciesForm />
+                {/* <SpeciesForm /> */}
             </div>
         );
     }
