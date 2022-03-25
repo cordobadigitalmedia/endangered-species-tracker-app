@@ -10,7 +10,7 @@ import CardActions from "@material-ui/core/CardActions";
 const SpeciesList = ({ species }) => {
     return (
         <div class='row' style={{}}>
-        <h1>Endangered Species:</h1>
+        <h1 ><center>Endangered Species</center></h1>
        
         {species.map(species => 
              <ul class="col s12 m2 20" 

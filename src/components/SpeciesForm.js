@@ -27,12 +27,25 @@ class SpeciesForm extends Component {
     handleSubmit = e => {
         e.preventDefault()
         this.props.addSpecies(this.state)
+        this.setState({
+            name: '',
+        status: '',
+        population: '',
+        rate_of_decline: '',
+        habitat: '',
+        places: '',
+        threats: '',
+        conservation_efforts: '',
+        image_url: ''
+        })
+        (alert ("Thanks for your contribution! You are helping others learn about endangered species. Check out the growing Species List you have added to.") )
     }
+
 
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <label>Add to our list of endangered species<br></br> </label>
+                <label>Add to our list of endangered species </label><br></br>
 
                 <label>Name </label>
                 <input type='text' value={this.state.name} onChange={this.handleChange} name='name'/>
