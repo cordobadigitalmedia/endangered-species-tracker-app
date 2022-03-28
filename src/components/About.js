@@ -9,18 +9,22 @@ import button from 'react'
 // import LinkButton from './LinkButton'
 
 
-class About extends Component {
+class About extends React.Component {
 
     render() {
      return (
         <div>
+                On going learning happening...page under construction...figuring out how to create link to external site from within Router :) 
+                <br></br> 
+                <br></br> 
                This site was developed using resources that you can refer to for additional information:<br></br>
+               {/* <Link to="https://www.worldwildlife.org/">WWF </Link> "https://www.worldwildlife.org/" <br></br> */}
                "https://www.worldwildlife.org/" <br></br>
                "https://www.nwf.org/" <br></br>
                "https://aldf.org/" <br></br>
                "https://www.awf.org/"<br></br>
-               <NavLink to="/about/wwf"> WWF </NavLink><br></br>
-               <NavLink to="https://www.worldwildlife.org/">WWF  </NavLink><br></br>
+        
+             
                <a href="https://github.com/Nausheen701/endangered-species-tracker-api"></a>
            
 
