@@ -1,8 +1,6 @@
-// import React from 'react'
-// import { Button } from 'react-bootstrap'
+import React from 'react';
 import { NavLink } from "react-router-dom";
 
-import React, { Component } from 'react';
 // import { connect } from 'react-redux'
 import Link from 'react'
 import button from 'react'
@@ -14,9 +12,9 @@ class About extends React.Component {
     render() {
      return (
         <div>
-                On going learning happening...page under construction...figuring out how to create link to external site from within Router :) 
-                <br></br> 
-                <br></br> 
+                {/* On going learning happening...page under construction...figuring out how to create link to external site from within Router :)  */}
+                {/* <br></br> 
+                <br></br>  */}
                This site was developed using resources that you can refer to for additional information:<br></br>
                {/* <Link to="https://www.worldwildlife.org/">WWF </Link> "https://www.worldwildlife.org/" <br></br> */}
                "https://www.worldwildlife.org/" <br></br>
@@ -25,7 +23,7 @@ class About extends React.Component {
                "https://www.awf.org/"<br></br>
         
              
-               <a href="https://github.com/Nausheen701/endangered-species-tracker-api"></a>
+               {/* <a href="https://github.com/Nausheen701/endangered-species-tracker-api"></a> */}
            
 
             {/* <Link to="https://github.com/Nausheen701/endangered-species-tracker-api">

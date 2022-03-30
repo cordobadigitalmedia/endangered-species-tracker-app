@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from 'react-redux'
 
 import { addSpecies } from '../actions/speciesActions'
 
-class SpeciesForm extends Component {
+class SpeciesForm extends React.Component {
 
     state = { 
         name: '',

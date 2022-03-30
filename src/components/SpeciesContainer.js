@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 
 import { fetchSpecies } from '../actions/speciesActions'
 import SpeciesForm from './SpeciesForm'
 // import SpeciesList from './SpeciesList'
 
-class SpeciesContainer extends Component {
+class SpeciesContainer extends React.Component {
 
     componentDidMount() {
         this.props.fetchSpecies()
@@ -13,8 +13,7 @@ class SpeciesContainer extends Component {
     render() {
         return (
             <div>
-               {/* <SpeciesList  /> */}
-                {/* <SpeciesForm /> */}
+               
             </div>
         );
     }
