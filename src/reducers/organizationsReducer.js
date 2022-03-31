@@ -1,8 +1,8 @@
-export const speciesReducer = (state = [], action) => {
+export const organizationsReducer = (state = [], action) => {
     switch(action.type){
-        case 'FETCH_SPECIES':
+        case 'FETCH_ORGS':
             return action.payload
-        case 'ADD_SPECIES':
+        case 'ADD_ORG':
             return [...state, action.payload]
         default:
             return state

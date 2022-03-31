@@ -28,9 +28,16 @@ const SpeciesList = ({ species }) => {
                     HABITAT: {species.habitat} <br></br>
                     PLACES: {species.places} <br></br>
                     THREATS: {species.threats}<br></br>
-                    CONSERVATION EFFORTS: {species.conservation_efforts} 
+                    CONSERVATION EFFORTS: {species.conservation_efforts} <br></br>
+                    {/* <input type="button" onClick="location.href='/commentinput';" value="ADD A COMMENT" /> */}
+                    {/* ADD A COMMENT: {} <br></br> */}
                 </li>
-            </ul >
+                </ul>
+            
+                
+           
+           
+           
     )}
     </div> 
     )
