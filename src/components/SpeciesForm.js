@@ -24,7 +24,7 @@ class SpeciesForm extends React.Component {
         })
     }
 
-    handleSubmit = e => {
+   handleSubmit = e => {
         e.preventDefault()
         this.props.addSpecies(this.state)
         this.setState({
@@ -39,7 +39,7 @@ class SpeciesForm extends React.Component {
         image_url: ''
         })
         (alert ("Thanks for your contribution! You are helping others learn about endangered species. Check out the growing Species List you have added to.") )
-    }
+    } 
 
 
     render() {

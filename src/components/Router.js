@@ -6,6 +6,7 @@ import SpeciesList from './SpeciesList'
 import SpeciesForm from './SpeciesForm'
 import OrganizationsList from './OrganizationsList'
 import OrganizationsForm from './OrganizationsForm'
+import Clickme from './Clickme'
 
 
 const Router = () => {
@@ -18,6 +19,8 @@ const Router = () => {
             <Route path='/form' element={<SpeciesForm/>} />
             <Route path='/organizations' element={<OrganizationsList/>} />
             <Route path='/orgform' element={<OrganizationsForm/>} />
+            <Route path='/clickme' element={<Clickme/>} />
+
         </Routes>
         
     );
