@@ -10,13 +10,18 @@ class OrganizationsContainer extends React.Component {
     componentDidMount() {
         this.props.fetchOrgs()
     }
+    // getOrgs() {
+    //     this.props.fetchOrgs()
+    // }
+    
+
     render() {
         return (
             <div>
-               'Organizations list coming soon'
+               
             </div>
         );
     }
 }
 
-export default connect(null, {fetchOrgs})(OrganizationsContainer);
+export default connect(null, {fetchOrgs})(OrganizationsContainer)

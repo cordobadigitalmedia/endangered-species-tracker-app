@@ -8,3 +8,4 @@ export const organizationsReducer = (state = [], action) => {
             return state
     }
 }
+

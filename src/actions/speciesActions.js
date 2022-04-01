@@ -18,13 +18,13 @@ export const addSpecies = (species) => {
     }
 }
 
-export const deleteSpecies = (species) => {
-    return dispatch => {
-        fetch('http://[::1]:3000/species', {
-            method: 'DELETE',
-            headers: { 'Content-Type': 'application/json' }
-        })
-        .then(resp => resp.json())
-        .then(json => dispatch({type: 'DELETE_SPECIES', payload: species}))
-    }
-}
+// export const deleteSpecies = (species) => {
+//     return dispatch => {
+//         fetch('http://[::1]:3000/species', {
+//             method: 'DELETE',
+//             headers: { 'Content-Type': 'application/json' }
+//         })
+//         .then(resp => resp.json())
+//         .then(json => dispatch({type: 'DELETE_SPECIES', payload: species}))
+//     }
+// }

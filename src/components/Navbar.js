@@ -10,8 +10,6 @@ const NavBar = () => {
         <NavLink to="/form"> Add an Endangered Species </NavLink><br></br>
         <NavLink to="/organizations">Organizations </NavLink><br></br><br></br>  
         <NavLink to="/orgform"> Add an Organization </NavLink><br></br>
-        {/* <NavLink to="/comments">Comments </NavLink><br></br><br></br> 
-        <NavLink to="/commentinput"> Add a Comment </NavLink><br></br>  */}
       </div>
     );
   };

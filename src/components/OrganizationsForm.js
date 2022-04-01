@@ -22,7 +22,7 @@ class OrganizationsForm extends React.Component {
         this.props.addOrg(this.state)
         this.setState({
             name: '',
-        website: ''
+            website: ''
         })
         (alert ("Thanks for adding an organization working to save endangered species!") )
     }

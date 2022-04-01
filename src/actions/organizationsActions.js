@@ -18,13 +18,13 @@ export const addOrg = (org) => {
     }
 }
 
-export const deleteOrg = (org) => {
-    return dispatch => {
-        fetch('http://[::1]:3000/organizations', {
-            method: 'DELETE',
-            headers: { 'Content-Type': 'application/json' }
-        })
-        .then(resp => resp.json())
-        .then(org => dispatch({type: 'DELETE_ORG', payload: org}))
-    }
-}
+// export const deleteOrg = (org) => {
+//     return dispatch => {
+//         fetch('http://[::1]:3000/organizations', {
+//             method: 'DELETE',
+//             headers: { 'Content-Type': 'application/json' }
+//         })
+//         .then(resp => resp.json())
+//         .then(org => dispatch({type: 'DELETE_ORG', payload: org}))
+//     }
+// }

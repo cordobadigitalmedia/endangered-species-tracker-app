@@ -12,9 +12,6 @@ class About extends React.Component {
     render() {
      return (
         <div>
-                {/* On going learning happening...page under construction...figuring out how to create link to external site from within Router :)  */}
-                {/* <br></br> 
-                <br></br>  */}
                This site was developed using resources that you can refer to for additional information:<br></br>
                {/* <Link to="https://www.worldwildlife.org/">WWF </Link> "https://www.worldwildlife.org/" <br></br> */}
                "https://www.worldwildlife.org/" <br></br>

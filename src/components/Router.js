@@ -7,10 +7,6 @@ import SpeciesForm from './SpeciesForm'
 import OrganizationsList from './OrganizationsList'
 import OrganizationsForm from './OrganizationsForm'
 
-// import Comments from './Comments'
-// import CommentInput from './CommentInput'
-
-
 
 const Router = () => {
     return (
@@ -22,8 +18,7 @@ const Router = () => {
             <Route path='/form' element={<SpeciesForm/>} />
             <Route path='/organizations' element={<OrganizationsList/>} />
             <Route path='/orgform' element={<OrganizationsForm/>} />
-            {/* <Route path='/commments' element={<Comments/>} />
-            <Route path='/commentinput' element={<CommentInput/>} /> */}
+            
         </Routes>
         
     );
