@@ -18,7 +18,6 @@ const Router = () => {
             <Route path='/form' element={<SpeciesForm/>} />
             <Route path='/organizations' element={<OrganizationsList/>} />
             <Route path='/orgform' element={<OrganizationsForm/>} />
-            
         </Routes>
         
     );

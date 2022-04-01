@@ -31,7 +31,7 @@ class OrganizationsForm extends React.Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <label>Add to our list of endangered species </label><br></br>
+                <label>Add to our list of organizations helping save endangered species </label><br></br>
 
                 <label>Organization Name </label>
                 <input type='text' value={this.state.name} onChange={this.handleChange} name='name'/>
