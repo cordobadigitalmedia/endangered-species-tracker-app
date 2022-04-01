@@ -8,7 +8,6 @@ class OrganizationsContainer extends React.Component {
         this.props.fetchOrgs()
     }
     
-
     render() {
         return (
             <div>

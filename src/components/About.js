@@ -1,11 +1,4 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
-
-// import { connect } from 'react-redux'
-import Link from 'react'
-import button from 'react'
-// import LinkButton from './LinkButton'
-
 
 class About extends React.Component {
 

@@ -1,19 +1,21 @@
 
 import React from 'react' 
 import SpeciesContainer from './components/SpeciesContainer'
-
-// import SpeciesList from './components/SpeciesList'
+import OrganizationsContainer from './components/OrganizationsContainer'
 import Router from './components/Router'
 import Navbar from './components/Navbar'
+
+
+
 
 const App = () => {
   return (
     <div>
-       < Navbar />
-       
+      < Navbar />
       <SpeciesContainer/>
-      
+      <OrganizationsContainer/>
       <Router />
+    
     </div>
   )
 }

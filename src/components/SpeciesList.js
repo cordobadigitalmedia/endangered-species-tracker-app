@@ -18,7 +18,7 @@ const SpeciesList = ({ species }) => {
                width: 470,
                backgroundColor: "gray",
              }} key={species.id}> <br></br>
-                <img src={species.image_url} width='400' height='auto'/>
+                <img alt='endangered species' src={species.image_url} width='400' height='auto'/>
                 <li >
                     NAME: {species.name} <br></br>
                     STATUS: {species.status} <br></br>
