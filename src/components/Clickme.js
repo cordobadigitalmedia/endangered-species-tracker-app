@@ -1,16 +1,4 @@
-// text input
-        // button
-        // counter starting at 0
-
-        // type Hello -- > click --> counter 5 --> reset
-        // type Goodbye -- > click --> counter 12 --> reset
-
-        // how to create state OK
-        // can't google increment button
-        // use a controlled form
-
 import React from 'react'
-// import { connect } from 'react-redux'
 
 class Clickme extends React.Component {
       // setState = 0
@@ -28,10 +16,10 @@ class Clickme extends React.Component {
 
     handleSubmit = e => {
         e.preventDefault()
-        // this.props.addSpecies(this.state)
+        // update the state
+        this.state.count=this.increment()
         this.setState({
-            word: '',
-            count: this.increment()
+            word: ''
         })
     } 
 
@@ -39,18 +27,16 @@ class Clickme extends React.Component {
         this.setState({count: this.state.count + (this.state.word.length)})
     }
 
-
     render() {
         return (
             <div>
             <form onSubmit={this.handleSubmit}>
 
             <label>Type a word </label>
-            <input type='text' value={this.state.word} onChange={this.handleChange} name='name'/>
+            <input type='text' value={this.state.word} onChange={this.handleChange} name='word'/>
             <br/>
 
             <input type='submit' value='Count the letters!' />
-
 
             </form>
              
@@ -63,6 +49,15 @@ class Clickme extends React.Component {
 
 }
 export default Clickme
-// export default connect(Clickme);
 
+// text input
+        // button
+        // counter starting at 0
+
+        // type Hello -- > click --> counter 5 --> reset
+        // type Goodbye -- > click --> counter 12 --> reset
+
+        // how to create state OK
+        // can't google increment button
+        // use a controlled form
 // make a video of this working in the browser and go over the code
