@@ -17,7 +17,7 @@ class Clickme extends React.Component {
     handleSubmit = e => {
         e.preventDefault()
         // update the state
-        this.state.count=this.increment()
+        this.setState.count=this.increment()
         this.setState({
             word: ''
         })
@@ -34,14 +34,12 @@ class Clickme extends React.Component {
 
             <label>Type a word </label>
             <input type='text' value={this.state.word} onChange={this.handleChange} name='word'/>
-            <br/>
 
-            <input type='submit' value='Count the letters!' />
+            <input type='submit' value='Count the letters!'/>
 
             </form>
-             
-             {this.state.count}
-
+             <br></br>
+             <h1><center>{this.state.count}</center></h1>
             </div>
         )
         
