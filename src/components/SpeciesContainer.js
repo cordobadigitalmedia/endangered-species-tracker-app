@@ -15,7 +15,7 @@ class SpeciesContainer extends React.Component {
             <div>
                
             </div>
-        );
+        )
     }
 }
 

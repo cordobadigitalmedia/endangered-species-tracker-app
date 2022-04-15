@@ -17,7 +17,8 @@ class Clickme extends React.Component {
     handleSubmit = e => {
         e.preventDefault()
         // update the state
-        this.setState.count=this.increment()
+        // this.setState.count=this.increment()
+        this.increment()
         this.setState({
             word: ''
         })

@@ -2,8 +2,21 @@ import React from 'react'
 import { connect } from 'react-redux'
 import LikesCounter from './LikesCounter'
 
-const SpeciesList = ({ species }) => {
+// class SpList extends React.Component {
+//     state = {
+//         count: 0
+//     }
+//     handleClick = e => {        
+//     this.increment()
+//     }
 
+//     increment = () => {
+//         this.setState({count: this.state.count + 1  })
+//     }
+// }
+
+const SpeciesList = ({ species }) => {
+    
     return (
         <div class='row' style={{}}> 
         <h1 ><center>Endangered Species</center></h1>
@@ -25,7 +38,9 @@ const SpeciesList = ({ species }) => {
                     PLACES: {species.places} <br></br>
                     THREATS: {species.threats}<br></br>
                     CONSERVATION EFFORTS: {species.conservation_efforts} <br></br>
-                    {this.props.counter}
+                    {/* <button onclick={this.handleClick}>Like</button> */}
+                    <button>Like</button>
+                    {/* <span> {this.state.count}</span> */}
                 </li>
                 </ul> 
     )}
