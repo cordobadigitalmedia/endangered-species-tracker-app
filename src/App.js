@@ -11,7 +11,7 @@ import Navbar from './components/Navbar'
 const App = () => {
   return (
     <div>
-      < Navbar />
+      <Navbar />
       <SpeciesContainer/>
       <OrganizationsContainer/>
       <Router />

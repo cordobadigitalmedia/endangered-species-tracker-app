@@ -1,19 +1,9 @@
 import React from 'react'
 import { connect } from 'react-redux'
-
-// import { Button } from 'react-bootstrap'
-// import { Card } from '@material-ui/core'
-// import { Col } from 'react-bootstrap/Col'
-
-// import Card from "@material-ui/core/Card";
-// import CardContent from "@material-ui/core/CardContent";
-// import Typography from "@material-ui/core/Typography";
-// import Button from "@material-ui/core/Button";
-// import CardActions from "@material-ui/core/CardActions";
-
-
+import LikesCounter from './LikesCounter'
 
 const SpeciesList = ({ species }) => {
+
     return (
         <div class='row' style={{}}> 
         <h1 ><center>Endangered Species</center></h1>
@@ -35,7 +25,7 @@ const SpeciesList = ({ species }) => {
                     PLACES: {species.places} <br></br>
                     THREATS: {species.threats}<br></br>
                     CONSERVATION EFFORTS: {species.conservation_efforts} <br></br>
-                    <button onClick={this.handleClick}>Delete</button>
+                    {this.props.counter}
                 </li>
                 </ul> 
     )}
