@@ -6,8 +6,7 @@ import Router from './components/Router'
 import Navbar from './components/Navbar'
 
 
-
-
+// functional component
 const App = () => {
   return (
     <div>
