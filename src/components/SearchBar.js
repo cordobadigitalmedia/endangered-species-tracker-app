@@ -7,6 +7,13 @@ class SearchBar extends React.Component {
         searchTerm: ''
     }
 
+editSearchTerm = (e) => {
+    this.setState({searchTerm: e.target.value})
+}
+
+dynamicSearch = () => {
+    return this.state.names.filter(name => name.toLowerCase().includes(this.state.searchTerm.toLowerCase()))
+}
 
 }
 
