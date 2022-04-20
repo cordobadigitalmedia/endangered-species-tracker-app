@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class About extends React.Component {
+const About = () => {
+ // class About extends React.Component {
 
-    render() {
+    // render() {
      return (
         <div>
                This site was developed using resources that you can refer to for additional information:<br></br>
@@ -42,6 +43,7 @@ VIDEO TUTORIAL: <br></br>
 
        
     )
-}}
+// }
+}
 
 export default About
