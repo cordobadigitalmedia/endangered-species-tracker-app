@@ -7,6 +7,7 @@ import SpeciesForm from './SpeciesForm'
 import OrganizationsList from './OrganizationsList'
 import OrganizationsForm from './OrganizationsForm'
 import Clickme from './Clickme'
+import SearchBar from './SearchBar'
 
 
 const Router = () => {
@@ -20,7 +21,7 @@ const Router = () => {
             <Route path='/organizations' element={<OrganizationsList/>} />
             <Route path='/orgform' element={<OrganizationsForm/>} />
             <Route path='/clickme' element={<Clickme/>} />
-
+            <Route path='/search' element={<SearchBar/>} />
         </Routes>
         
     );
