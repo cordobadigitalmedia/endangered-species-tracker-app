@@ -5,7 +5,7 @@ import OrganizationsContainer from './components/organizations/OrganizationsCont
 import Router from './components/Router'
 import Navbar from './components/Navbar'
 
-const greeting = "Hello World"
+// const greeting = "Hello World"
 
 // functional component
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       <SpeciesContainer/>
       <OrganizationsContainer/>
       <Router />
-    <h1>{greeting}</h1>
+    {/* <h1>{greeting}</h1> */}
     </div>
   )
 }
