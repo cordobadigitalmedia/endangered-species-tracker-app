@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux'
-import { addOrg } from '../actions/organizationsActions'
+import { addOrg } from '../../actions/organizationsActions'
 
 class OrganizationsForm extends React.Component {
 

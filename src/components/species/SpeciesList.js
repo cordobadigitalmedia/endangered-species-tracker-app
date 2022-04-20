@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 
-import LikesCounter from './LikesCounter'
+import LikesCounter from '../LikesCounter'
 
 // class SpList extends React.Component {
 //     state = {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { fetchOrgs } from '../actions/organizationsActions'
+import { fetchOrgs } from '../../actions/organizationsActions'
 
 class OrganizationsContainer extends React.Component {
 

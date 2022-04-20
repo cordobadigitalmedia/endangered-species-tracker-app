@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-import { fetchSpecies } from '../actions/speciesActions'
+import { fetchSpecies } from '../../actions/speciesActions'
 
 
 
