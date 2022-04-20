@@ -1,24 +1,24 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-const Clickme = () => {
-// class Clickme extends React.Component {
-      // setState = 0
-    const state = { 
-        // state = { 
+// const Clickme = () => {
+class Clickme extends React.Component {
+      setState = 0
+    // const state = { 
+        state = { 
         word: '', 
         count: 0
     }
 
-    const handleChange = e => {
-        // handleChange = e => {
+    // const handleChange = e => {
+        handleChange = e => {
         const { name, value } = e.target
         this.setState({
             [name]: value
         })
     }
 
-    const handleSubmit = e => {
-        // handleSubmit = e => {
+    // const handleSubmit = e => {
+        handleSubmit = e => {
         e.preventDefault()
         // update the state
         // this.setState.count=this.increment()
@@ -28,12 +28,12 @@ const Clickme = () => {
         })
     } 
 
-    const increment = () => {
-        // increment = () => {
+    // const increment = () => {
+        increment = () => {
         this.setState({count: this.state.count + (this.state.word.length)})
     }
 
-    // render() {
+    render() {
         return (
             <div>
             <form onSubmit={this.handleSubmit}>
@@ -51,7 +51,7 @@ const Clickme = () => {
         
     }
 
-// }
+}
 export default Clickme
 
 // text input
