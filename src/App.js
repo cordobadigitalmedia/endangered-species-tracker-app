@@ -5,9 +5,7 @@ import OrganizationsContainer from './components/organizations/OrganizationsCont
 import Router from './components/Router'
 import Navbar from './components/Navbar'
 
-// const greeting = "Hello World"
 
-// functional component
 const App = () => {
   return (
     <div>
@@ -15,9 +13,14 @@ const App = () => {
       <SpeciesContainer/>
       <OrganizationsContainer/>
       <Router />
-    {/* <h1>{greeting}</h1> */}
     </div>
   )
 }
 
 export default App;
+
+// const greeting = "Hello World"
+
+// functional component
+
+{/* <h1>{greeting}</h1> */}

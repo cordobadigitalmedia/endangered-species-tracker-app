@@ -1,5 +1,5 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from "react"
+import { NavLink } from "react-router-dom"
 
 const NavBar = () => {
     return (
@@ -10,10 +10,12 @@ const NavBar = () => {
         <NavLink to="/form"> Add an Endangered Species </NavLink><br></br>
         <NavLink to="/organizations">  Organizations </NavLink><br></br><br></br>  
         <NavLink to="/orgform"> Add an Organization </NavLink><br></br>
-        <NavLink to="/clickme"> Clickme </NavLink><br></br>
-        <NavLink to="/search"> Search </NavLink><br></br>
       </div>
-    );
-  };
+    )
+  }
 
   export default NavBar
+
+
+  // <NavLink to="/clickme"> Clickme </NavLink><br></br>
+  // <NavLink to="/search"> Search </NavLink><br></br>
